@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApp", "CarApp\CarApp.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markkalaskuri", "Markkalaskuri\Markkalaskuri.csproj", "{AD1FA2BE-B729-4C4E-9E20-A95C94FE95E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ikkunaLaskuri", "ikkunaLaskuri\ikkunaLaskuri.csproj", "{28E5D30C-A8D1-4178-85D8-D6572A9F5500}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -53,6 +55,24 @@ Global
 		{AD1FA2BE-B729-4C4E-9E20-A95C94FE95E9}.Release|x86.ActiveCfg = Release|x86
 		{AD1FA2BE-B729-4C4E-9E20-A95C94FE95E9}.Release|x86.Build.0 = Release|x86
 		{AD1FA2BE-B729-4C4E-9E20-A95C94FE95E9}.Release|x86.Deploy.0 = Release|x86
+		{28E5D30C-A8D1-4178-85D8-D6572A9F5500}.Debug|ARM.ActiveCfg = Debug|ARM
+		{28E5D30C-A8D1-4178-85D8-D6572A9F5500}.Debug|ARM.Build.0 = Debug|ARM
+		{28E5D30C-A8D1-4178-85D8-D6572A9F5500}.Debug|ARM.Deploy.0 = Debug|ARM
+		{28E5D30C-A8D1-4178-85D8-D6572A9F5500}.Debug|x64.ActiveCfg = Debug|x64
+		{28E5D30C-A8D1-4178-85D8-D6572A9F5500}.Debug|x64.Build.0 = Debug|x64
+		{28E5D30C-A8D1-4178-85D8-D6572A9F5500}.Debug|x64.Deploy.0 = Debug|x64
+		{28E5D30C-A8D1-4178-85D8-D6572A9F5500}.Debug|x86.ActiveCfg = Debug|x86
+		{28E5D30C-A8D1-4178-85D8-D6572A9F5500}.Debug|x86.Build.0 = Debug|x86
+		{28E5D30C-A8D1-4178-85D8-D6572A9F5500}.Debug|x86.Deploy.0 = Debug|x86
+		{28E5D30C-A8D1-4178-85D8-D6572A9F5500}.Release|ARM.ActiveCfg = Release|ARM
+		{28E5D30C-A8D1-4178-85D8-D6572A9F5500}.Release|ARM.Build.0 = Release|ARM
+		{28E5D30C-A8D1-4178-85D8-D6572A9F5500}.Release|ARM.Deploy.0 = Release|ARM
+		{28E5D30C-A8D1-4178-85D8-D6572A9F5500}.Release|x64.ActiveCfg = Release|x64
+		{28E5D30C-A8D1-4178-85D8-D6572A9F5500}.Release|x64.Build.0 = Release|x64
+		{28E5D30C-A8D1-4178-85D8-D6572A9F5500}.Release|x64.Deploy.0 = Release|x64
+		{28E5D30C-A8D1-4178-85D8-D6572A9F5500}.Release|x86.ActiveCfg = Release|x86
+		{28E5D30C-A8D1-4178-85D8-D6572A9F5500}.Release|x86.Build.0 = Release|x86
+		{28E5D30C-A8D1-4178-85D8-D6572A9F5500}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
