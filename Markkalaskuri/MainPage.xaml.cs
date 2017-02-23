@@ -27,7 +27,24 @@ namespace Markkalaskuri
             this.InitializeComponent();
         }
 
-        private void textBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        private void laske(object sender, RoutedEventArgs e)
+        {
+            double eurot = int.Parse(EuroField.Text);
+            double markat = int.Parse(MarkkaField.Text);
+
+            // 1 euro = 5.945markkaa
+
+            double markkamaara = eurot * 5.945;
+            string value1 = markkamaara.ToString("0.00");
+            markkamaaraText.Text = value1;
+
+            double euromaara = markat / 5.945;
+            string value2 = euromaara.ToString("0.00");
+            euromaaraText.Text = value2;
+
+        }
+
+        private void EuroField_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
@@ -37,7 +54,22 @@ namespace Markkalaskuri
 
         }
 
+        private void textBlock2_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void textBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         private void textBlock3_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void textBlock1_SelectionChanged(object sender, RoutedEventArgs e)
         {
 
         }

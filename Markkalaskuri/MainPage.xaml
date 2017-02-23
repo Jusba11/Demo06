@@ -8,20 +8,22 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Name="button" Content="LASKE" HorizontalAlignment="Left" Margin="78,393,0,0" VerticalAlignment="Top" Height="71" Width="201"/>
-        <TextBox x:Name="Eurot" HorizontalAlignment="Left" Margin="78,69,0,0" TextWrapping="Wrap" Text="Eurot" VerticalAlignment="Top" Width="201"/>
-        <TextBox x:Name="Markat" HorizontalAlignment="Left" Margin="78,220,0,0" TextWrapping="Wrap" Text="Markat" VerticalAlignment="Top" Width="201" TextChanged="Markat_TextChanged"/>
+        <Button x:Name="button" Content="LASKE" HorizontalAlignment="Left" Margin="78,393,0,0" VerticalAlignment="Top" Height="71" Width="201" Click="laske"/>
+        <TextBox x:Name="EuroField" HorizontalAlignment="Left" Margin="78,69,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="201" TextChanged="EuroField_TextChanged"/>
+        <TextBox x:Name="MarkkaField" HorizontalAlignment="Left" Margin="78,233,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="201" TextChanged="Markat_TextChanged"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="78,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" Height="59" SelectionChanged="textBlock_SelectionChanged">
             <Run Text="Antamasi "/>
             <Run Text="euromäärä on markkoina:"/>
         </TextBlock>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="78,257,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" Height="59">
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="78,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" Height="59" SelectionChanged="textBlock1_SelectionChanged">
             <Run Text="Antamasi"/>
             <Run Text=" markka"/>
             <Run Text="määrä on euroina:"/>
         </TextBlock>
-        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="78,165,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="201" TextAlignment="Center" FontSize="18"/>
-        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="78,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" TextAlignment="Center" SelectionChanged="textBlock3_SelectionChanged" FontSize="18" Text="0&#xD;&#xA;"/>
+        <TextBlock x:Name="markkamaaraText" HorizontalAlignment="Left" Margin="78,165,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="201" TextAlignment="Center" FontSize="18"/>
+        <TextBlock x:Name="euromaaraText" HorizontalAlignment="Left" Margin="78,329,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" TextAlignment="Center" SelectionChanged="textBlock3_SelectionChanged" FontSize="18" Text="0&#xD;&#xA;"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="78,46,0,0" TextWrapping="Wrap" Text="Eurot:" VerticalAlignment="Top" SelectionChanged="textBlock2_SelectionChanged"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="78,208,0,0" TextWrapping="Wrap" Text="Markat:" VerticalAlignment="Top" RenderTransformOrigin="1.38,0.5" SelectionChanged="textBlock3_SelectionChanged"/>
 
     </Grid>
 </Page>
